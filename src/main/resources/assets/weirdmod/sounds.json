@@ -1,0 +1,8 @@
+{
+  "beep": {
+    "subtitle": "subtitles.weirdmod.beep",
+    "sounds": [
+      "weirdmod:beep"
+    ]
+  }
+}

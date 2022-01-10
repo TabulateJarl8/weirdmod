@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "weirdmod",
+  "version": "${version}",
+
+  "name": "Weirdmod",
+  "description": "I'm not entirely sure what this mod is",
+  "authors": [
+    "TabulateJarl8"
+  ],
+  "contact": {
+    "homepage": "https://tabulate.tech",
+    "sources": "https://github.com/TabulateJarl8/weirdmod"
+  },
+
+  "license": "mit",
+  "icon": "assets/weirdmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tech.tabulate.weirdmod.WeirdMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
